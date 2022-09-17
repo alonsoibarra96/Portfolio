@@ -5,19 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alonso Ibarra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rampart+One&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
         <h1>Alonso Ibarra</h1>
         <nav>
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Skills</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
+    <!-- Main content-->
+    <main>
+        <!-- About me-->
+        <section id="about">
+            <div id="info">
+                <img id="me" src="img/coolest.jpeg" alt="guy">
+                <h2>About me</h2>
+            </div>
+            <div>
+                <p id="secret">I'm a psychologist and full stack developer, I love my family and my favorite hobbies are swimming, playing chess, reading, playing guitar and spend time with my girlfriend, I'm currently living in Mexico but soon I will live in Canada.</p>
+                <h3 id="button">Show Info</h3>
+            </div>
+        </section>
+        <!-- Projects-->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div id="imgs">
+                <a href="#"><img class="img" src="img/bookmatch.png"></a>
+                <a href="#"><img class="img" src="img/dashmotos.png"></a>
+                <a href="http://afraid-rod.surge.sh" target="_blank"><img class="img" src="img/psicodelicia.png"></a>
+                <a href="#"><img class="img" src="img/teaCozy.png"></a>
+                <a href="#"><img class="img" src="img/today.png"></a>
+            </div>
+        </section>
+        <!-- Skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+        </section>
+    </main>
+
+    <!-- Scripts-->
+    <script src="js/secretInfo.js"></script>
 </body>
 </html>

@@ -1,11 +1,39 @@
 /* Universal */
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+html {
+    font-size: 18px;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    color: palegoldenrod;
+}
+
+section {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+a:hover {
+    border: 1px solid yellow;
+}
 
 /* Header */
+h1 {
+    font-family: 'Rampart One', cursive;
+}
+
 header {
     display: flex;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
     border-bottom: 1px solid grey;
 }
 
@@ -13,3 +41,49 @@ li {
     display: inline;
     margin: 5px;
 }
+
+/* Ends Header */
+/* Starts Main */
+/* Starts About me */
+#info {
+    display: flex;
+    justify-content: space-around;
+}
+
+#me {
+    width: 5rem;
+    border-radius: 50%;
+}
+
+#secret {
+    display: none;
+}
+
+#button {
+    text-align: center;
+    border: 1px solid grey;
+    
+}
+
+#button:hover {
+    border: 2px solid yellow;
+}
+
+/* Ends About me */
+#imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+}
+
+.img {
+    width: 25rem;
+    margin: 2rem;
+}
+
+
+
+/* Starts Projects */
+/* Ends Projects */
+/* Ends Main */
