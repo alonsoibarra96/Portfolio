@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rampart+One&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/cca3f30647.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- Header -->
@@ -16,10 +17,11 @@
         <h1>Alonso Ibarra</h1>
         <nav>
             <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="back"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#about" class="scroll">About Me</a></li>
+                <li><a href="#projects" class="scroll">Projects</a></li>
+                <li><a href="#skills" class="scroll">Skills</a></li>
+                <li><a href="#contact" class="scroll"><i class="fa-regular fa-envelope"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -50,10 +52,46 @@
         <!-- Skills -->
         <section id="skills">
             <h2>Skills</h2>
+            <div id="skills">
+                <i class="fa-brands fa-html5 fa-6x"></i>
+                <i class="fa-brands fa-css3-alt fa-6x"></i>
+                <i class="fa-brands fa-js fa-6x"></i>
+                <i class="fa-brands fa-node fa-6x"></i>
+                <i class="fa-brands fa-sass fa-6x"></i>
+                <i class="fa-brands fa-python fa-6x"></i>
+                <i class="fa-brands fa-java fa-6x"></i>
+                <i class="fa-brands fa-git-alt fa-6x"></i>
+                <i class="fa-brands fa-github fa-6x"></i>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="">
+                <label for="email">Email</label>
+                <br>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message</label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+                <br>
+                <input type="submit" value="Submit">
+</textarea>
+
+            </form>
         </section>
     </main>
+    <!-- Footer-->
+    <footer>
+        <a href="https://www.linkedin.com/in/alonso-ibarra-0121b21a1/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/alonzo.ibga/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/alonsoibarra96/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com/Alonsoibarra404" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+        <a href="https://github.com/alonsoibarra96" target="_blank"><i class="fa-brands fa-github"></i></a>
+    </footer>
 
     <!-- Scripts-->
     <script src="js/secretInfo.js"></script>
+    <script src="js/scroll.js"></script>
 </body>
 </html>

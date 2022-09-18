@@ -10,7 +10,7 @@ html {
 h3 {
     font-family: 'Bebas Neue', cursive;
     font-size: 3rem;
-    color: palegoldenrod;
+    color: grey;
 }
 
 section {
@@ -18,6 +18,11 @@ section {
     margin-right: 10%;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 a:hover {
@@ -31,10 +36,12 @@ h1 {
 
 header {
     display: flex;
-    justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
+    justify-content: center;
     border-bottom: 1px solid grey;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    min-width: 100%;
 }
 
 li {
@@ -44,10 +51,16 @@ li {
 
 /* Ends Header */
 /* Starts Main */
+main {
+    margin-top: 0;
+    padding-top: 15%;
+}
 /* Starts About me */
+
+
 #info {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #me {
@@ -70,6 +83,7 @@ li {
 }
 
 /* Ends About me */
+/* Starts Projects */
 #imgs {
     display: flex;
     flex-wrap: wrap;
@@ -81,9 +95,17 @@ li {
     width: 25rem;
     margin: 2rem;
 }
-
-
-
-/* Starts Projects */
 /* Ends Projects */
+/* Starts Skills */
+i {
+    margin: 3%;
+}
+/* Ends Skills */
 /* Ends Main */
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
